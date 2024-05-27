@@ -784,7 +784,7 @@ footer a i {
     }
 
     section {
-        padding: 15px 5%;
+        padding: 50px 25px;
     }
 
     .navlist a {
@@ -875,11 +875,18 @@ footer a i {
     footer p {
         font-size: .8rem;
     }
+
+    img {
+        width: 80%;
+        left: 10%;
+        top: 13%;
+    }
 }
 
 @media(max-width:480px) {
     html {
         font-size: 85%;
+        width: fit-content;
     }
 
     footer p {
@@ -887,7 +894,7 @@ footer a i {
     }
 
     .img-about .img-box1 {
-        width: 300px;
+        width: fit-content;
     }
 
     .info-about1,
